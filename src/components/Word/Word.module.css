@@ -1,0 +1,12 @@
+.word {
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+    width: fit-content;
+    height: fit-content;
+    width: fit-content;
+    color: #1b1b1b;
+    background: transparent;
+  }
+  

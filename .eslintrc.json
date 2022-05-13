@@ -1,0 +1,67 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true
+    },
+    "extends": [
+        "eslint:recommended",
+        "plugin:react/recommended",
+        "plugin:@typescript-eslint/recommended",
+        "airbnb",
+        "prettier",
+        "plugin:prettier/recommended",
+        "plugin:import/warnings"
+    ],
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": "latest",
+        "sourceType": "module"
+    },
+    "plugins": ["react", "@typescript-eslint", "prettier", "jest"],
+    "rules": {
+        "react/jsx-filename-extension": [1, { "extensions": [".tsx", ".ts"] }],
+         "react/react-in-jsx-scope": "off",
+    "no-console": "off",
+    "prettier/prettier": "off", //["error", { "parser": "flow" }],
+    "no-unused-vars": "warn",
+    "no-shadow": "off",
+
+    "@typescript-eslint/no-shadow": ["error"],
+    "no-param-reassign": [
+      "error",
+      {
+        "props": true,
+        "ignorePropertyModificationsFor": ["state"]
+      }
+    ],
+    "semi": ["error", "never"],
+    "import/extensions": [
+      "error",
+      "ignorePackages",
+      {
+        "ts": "never",
+        "tsx": "never"
+      }
+    ],
+    "react/function-component-definition": [
+      2,
+      {
+        "namedComponents": "function-declaration",
+        "unnamedComponents": "arrow-function"
+      }
+    ],
+    "import/prefer-default-export": "off",
+    "default-param-last": "off",
+    "func-names": "off",
+    "no-plusplus": "off"
+    },
+   
+    "settings": {
+    "import/resolver": {
+      "typescript": {}
+    }
+  }
+}

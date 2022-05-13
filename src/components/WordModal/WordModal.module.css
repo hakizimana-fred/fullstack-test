@@ -1,0 +1,14 @@
+.main {
+  background: white;
+  width: 30vh;
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 2.5em;
+  border: none;
+  padding: 10px;
+  outline-color: rgb(68, 182, 227);
+}
