@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 import { Routes, Route } from 'react-router-dom'
 import Book from './pages/Book/Book'
 import styles from './App.module.css'
@@ -11,7 +11,7 @@ function App() {
       <Route path="*" element={<Book />} />
     </Routes>
   </main>
-  );
+  )
 }
 
-export default App;
+export default App
