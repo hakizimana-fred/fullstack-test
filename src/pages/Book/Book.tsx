@@ -3,20 +3,9 @@ import { useState } from 'react'
 import Nav from '../../components/Nav/Nav'
 import Word from '../../components/Word/Word'
 import styles from './Book.module.css'
+import { BOOK_PAGES } from '../../queries/queries'
 
-const BOOK_PAGES = gql`
-  query GetBookPages {
-    book {
-      pages {
-        content
-        tokens {
-          position
-          value
-        }
-      }
-    }
-  }
-`
+
 
 interface IToken {
   value: string
