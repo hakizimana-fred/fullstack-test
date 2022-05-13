@@ -8,3 +8,5 @@ Fullstack test to test my skill sets
 ### ` Linters`
 - [x] Eslint
 - [x] Prettier
+### ` Unit Tests`
+- [x] Cypress
